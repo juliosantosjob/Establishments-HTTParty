@@ -1,0 +1,11 @@
+AllCops:
+  NewCops: enable
+  
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/CaseLikeIf:
+  Enabled: false
+
+Style/EndOfLine:
+  EnforcedStyle: crlf
