@@ -9,3 +9,6 @@ Style/CaseLikeIf:
 
 Style/EndOfLine:
   EnforcedStyle: crlf
+
+Documentation:
+  Enabled: false
