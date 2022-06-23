@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'allure-cucumber'
+gem 'cucumber'
 gem 'httparty'
 gem 'openssl'
-gem 'cucumber'
 gem 'rspec'
-gem 'allure-cucumber'
 gem 'rubocop'
