@@ -1,4 +1,4 @@
-name: Execução dos testes para o projeto Back-testing-vr
+name: Pipe Ruby
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
     - cron: "0 12 1,15 * *"
 
 jobs:
-  test:
+  tests-e2e:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,5 +23,5 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Run tests
+      - name: Running the tests
         run: bundle exec cucumber
