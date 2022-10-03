@@ -15,7 +15,7 @@ gem install bundle
 
 **Clonar o projeto**
 ``` 
-git clone https://github.com/julio958214/Back-testing-vr.git
+git clone https://github.com/juliosantosjob/Establishments-HTTParty.git
 ```
 
 **Instalar dependências**
