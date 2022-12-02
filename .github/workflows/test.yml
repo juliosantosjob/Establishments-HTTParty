@@ -10,7 +10,7 @@ on:
     - cron: "0 12 1,15 * *"
 
 jobs:
-  tests-e2e:
+  tests-backend:
     runs-on: ubuntu-latest
 
     steps:
